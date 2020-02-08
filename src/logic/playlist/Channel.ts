@@ -8,7 +8,7 @@ export enum ChannelOptions {
 export interface Channel {
 	title: string;
 	url: string;
-	options: _.Dictionary<string>;
+	options: _.Dictionary<ChannelOptions>;
 }
 
 export class ChannelHelper {

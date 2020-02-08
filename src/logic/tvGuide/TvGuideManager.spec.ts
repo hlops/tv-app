@@ -19,7 +19,7 @@ describe('TvGuideManager', () => {
 		delete storage['*'];
 	});
 
-	it('importPlayList() can successfully import channels', done => {
+	it('import() can successfully import channels', done => {
 		new TvGuideManager(storage)
 			.importXmltv(fs.createReadStream('./samples/xmltv-small.xml', 'utf8'))
 			.then(() => {

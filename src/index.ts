@@ -2,6 +2,7 @@ import * as fs from "fs";
 import * as http from "http";
 import { Readable } from "stream";
 import playlistRoute from "./routes/playlist";
+import tvGuideRoute from "./routes/tvGuide";
 import fastify = require("fastify");
 import fastifyCors = require("fastify-cors");
 import fastifyMultipart = require("fastify-multipart");
@@ -42,6 +43,7 @@ server.register(fastifyMultipart, {
 */
 });
 server.register(playlistRoute);
+server.register(tvGuideRoute);
 
 const start = async () => {
   try {
