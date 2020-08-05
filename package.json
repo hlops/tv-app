@@ -27,7 +27,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "fastify": "^2.11.0",
+    "fastify": "^2.15.1",
     "fastify-cors": "^3.0.1",
     "fastify-multipart": "^1.0.4",
     "key-file-storage": "^2.2.6",
