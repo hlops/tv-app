@@ -32,7 +32,7 @@
     "fastify-multipart": "^1.0.4",
     "key-file-storage": "^2.2.6",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "sax": "^1.2.4"
   }
 }
